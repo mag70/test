@@ -4,6 +4,7 @@
 1) http://www.tender.pro/api/_info.tenderlist_by_set.json?_key=7b56c77b9f70220c3d5d4ce6477674ea&set_type_id=2&set_id=1&max_rows=3&open_only=1
 2) http://www.tender.pro/api/_tender.info.json?_key=7b56c77b9f70220c3d5d4ce6477674ea&company_id=205483&id=289099
 3) http://www.tender.pro/api/_company.info_public.json?id=205483
+
 В папку выложены подробности (список запросов и для каждого из них: командный файл, заголовок ответа, тело ответа)
 
 Ответ 2: Каждого юзера выбрать "лучшие" дизайны на Каждом из Используемых блоков
