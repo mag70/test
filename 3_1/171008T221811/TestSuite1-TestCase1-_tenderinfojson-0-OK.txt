@@ -1,0 +1,44 @@
+Status: OK
+Time Taken: 120
+Size: 2132
+Timestamp: Sun Oct 08 23:18:39 KRAT 2017
+TestStep: _tender.info.json
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: http://www.tender.pro
+URL: http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=170415&id=290244
+
+---------------- Request ---------------------------
+Host: [www.tender.pro]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Accept: [application/json]
+
+GET http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=170415&id=290244 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept: application/json
+Host: www.tender.pro
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Sun, 08 Oct 2017 15:18:38 GMT]
+Transfer-Encoding: [chunked]
+#status#: [HTTP/1.1 200 OK]
+P3P: [policyref="/w3c/p3p.xml", CP="CUR ADM OUR NOR STA NID"]
+Expires: [Thu, 01 Jan 1970 00:00:01 GMT]
+Set-Cookie: [TPROv1=Td2LhVnaQc6KdQjMBHz5Ag==; expires=Sun, 22-Oct-17 15:18:38 GMT; domain=www.tender.pro; path=/]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.3.8]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+
+{"success":"true","result":{"args":{"company_id":"170415","_key":"1732ede4de680a0c93d81f01d7bac7d1","id":"290244"},"data":{"company_name":"ИК АРЛАН (АО ПАВЛИК)","close_date":"12.10.2017","full_address":null,"is_223fz":0,"ship_date":"01.12.2017","open_date":"07.10.2017","type_id":1,"id":290244,"anno":"Требуемые условия оплаты - постоплата 30 дней;<br/>Необходимость поставки пробной партии - нет;<br/>Особые требования к качеству товара - нет;<br/>Особые требования к предоставлению документов - нет;<br/>Сертификат соответствия,паспорт качества - требуется;<br/>Паспорт безопасности - требуется;<br/>Особые требования к упаковке,транспортировке - нет;<br/>Необходимость страховки груза - нет;<br/>Требования к форме контракта - по форме покупателя.<br/>Для новых поставщиков,первые три поставки - с условием оплаты по факту поставки.;<br/>Данный запрос предложений не является торгами или публичным конкурсом в понимании ст. 447-449,1057-1061 ГК РФ. Все действия до момента подписания договора с победителем конкурса считаются преддоговорной работой и не накладывают на организатора обязательств,превышающих перечисленные в условиях конкурса.\"","face_email":null,"status_id":2,"type_name":"Открытый тендер на закупку","winners_list":null,"company_id":170415,"is_priv":0,"offers_count":null,"face_phone":null,"face_name":null,"title":"Заявка 5886 - закупка расходных геологических материалов"}}}

@@ -1,0 +1,44 @@
+Status: OK
+Time Taken: 119
+Size: 3263
+Timestamp: Sun Oct 08 23:18:40 KRAT 2017
+TestStep: _tender.info.json
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: http://www.tender.pro
+URL: http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=154463&id=290245
+
+---------------- Request ---------------------------
+Host: [www.tender.pro]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Accept: [application/json]
+
+GET http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=154463&id=290245 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept: application/json
+Host: www.tender.pro
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Sun, 08 Oct 2017 15:18:38 GMT]
+Transfer-Encoding: [chunked]
+#status#: [HTTP/1.1 200 OK]
+P3P: [policyref="/w3c/p3p.xml", CP="CUR ADM OUR NOR STA NID"]
+Expires: [Thu, 01 Jan 1970 00:00:01 GMT]
+Set-Cookie: [TPROv1=Td2LhVnaQc6KdQjMBHz6Ag==; expires=Sun, 22-Oct-17 15:18:38 GMT; domain=www.tender.pro; path=/]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.3.8]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+
+{"success":"true","result":{"args":{"company_id":"154463","_key":"1732ede4de680a0c93d81f01d7bac7d1","id":"290245"},"data":{"company_name":"УК МЕТАЛЛОИНВЕСТ","close_date":"11.10.2017","full_address":null,"is_223fz":0,"ship_date":"31.10.2017","open_date":"07.10.2017","type_id":1,"id":290245,"anno":"<p>Требуемые условия оплаты - отсрочка платежа не менее 45 дней;<br/>Срок действияпредложения - не менее 15 дней;<br/>Особые требования к качеству товара - в соответствии с ГОСТ;<br/>Сертификат соответствия,паспорт качества - требуется;<strong><strong>Участникам, которые предлагают аналог, необходимо указать описание (Наименование продукции в соответствии со спецификацией, ГОСТ, ТУ) в поле напротив каждой позиции.</strong></strong></p><p><strong>1) При возможности доставки собственными силами указывать отдельно стоимость транспортировки.<br/>2) В случае поставки на условиях самовывоза необходимо указать адрес погрузки (город).</strong></p><p><strong>3) Для всех участников обязательно заполнение полей условия оплаты и поставки. При отсутствии данной информации предложение не будет принято.</strong></p><p><strong>4) Повторно обращаем Ваше внимание, что аналоги указываются в поле комментарии.</strong></p><table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tbody><tr align=\"left\" valign=\"top\"><td width=\"100%\"><div id=\"tenderForm\"><table border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"2\"><tbody><tr><td class=\"wyscell\" align=\"left\" valign=\"top\" width=\"100%\">Данный запрос предложений не является торгами или публичным конкурсом в понимании ст. 447-449,1057-1061 ГК РФ. Все действия до момента подписания договора с победителем конкурса считаются преддоговорной работой и не накладывают на организатора обязательств,превышающих перечисленные в условиях конкурса.\"<br/>Контакты:Пожидаев Сергей8(495)9815555 доб.7716 s.pozhidaev@metalloinvest.com</td></tr></tbody></table></div></td></tr></tbody></table>","face_email":null,"status_id":2,"type_name":"Открытый тендер на закупку","winners_list":null,"company_id":154463,"is_priv":0,"offers_count":null,"face_phone":null,"face_name":null,"title":"Закупка листового металлопроката для ПАО \"Михайловский ГОК\" в октябре 2017   (id290245)"}}}

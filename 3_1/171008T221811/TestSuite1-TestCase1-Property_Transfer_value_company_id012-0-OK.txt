@@ -1,0 +1,66 @@
+Status: OK
+Time Taken: 160
+Size: 0
+Timestamp: Sun Oct 08 23:18:39 KRAT 2017
+TestStep: Property Transfer value company id0,1,2
+
+----------------- Messages ------------------------------
+Performed transfer [company_id0]
+Performed transfer [company_id1]
+Performed transfer [company_id2]
+Performed transfer [id1]
+Performed transfer [id2]
+Performed transfer [id0]
+Performed transfer [_key0]
+Performed transfer [_key1]
+Performed transfer [_key2]
+Performed transfer [_key3]
+Performed transfer [_key4]
+Performed transfer [_key5]
+Performed transfer [_key6]
+----------------------------------------------------
+company_id0 transferred [[170415]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.company_id0]
+------------ source path -------------
+result.data[0].company_id
+------------ target path -------------
+
+company_id1 transferred [[154463]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.company_id1]
+------------ source path -------------
+result.data[1].company_id
+company_id2 transferred [[44441]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.company_id2]
+------------ source path -------------
+result.data[2].company_id
+id1 transferred [[290245]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.id1]
+------------ source path -------------
+result.data[1].id
+------------ target path -------------
+
+id2 transferred [[289930]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.id2]
+------------ source path -------------
+result.data[2].id
+------------ target path -------------
+
+id0 transferred [[290244]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#.id0]
+------------ source path -------------
+result.data[0].id
+_key0 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key0]
+------------ source path -------------
+$.result.args._key
+_key1 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key1]
+------------ source path -------------
+$.result.args._key
+_key2 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key2]
+------------ source path -------------
+$.result.args._key
+_key3 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key3]
+------------ source path -------------
+$.result.args._key
+_key4 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key4]
+------------ source path -------------
+$.result.args._key
+_key5 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key5]
+------------ source path -------------
+$.result.args._key
+_key6 transferred [[1732ede4de680a0c93d81f01d7bac7d1]] from [_info.tenderlist_by_set.json.Response] to [#TestCase#._key6]
+------------ source path -------------
+$.result.args._key

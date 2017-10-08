@@ -1,0 +1,8 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Sun Oct 08 23:18:40 KRAT 2017
+TestStep: DataSource Loop
+
+----------------- Messages ------------------------------
+Current row = 3

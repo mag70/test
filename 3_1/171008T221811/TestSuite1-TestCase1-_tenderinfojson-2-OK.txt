@@ -1,0 +1,44 @@
+Status: OK
+Time Taken: 106
+Size: 2650
+Timestamp: Sun Oct 08 23:18:40 KRAT 2017
+TestStep: _tender.info.json
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: http://www.tender.pro
+URL: http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=44441&id=289930
+
+---------------- Request ---------------------------
+Host: [www.tender.pro]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+Accept: [application/json]
+
+GET http://www.tender.pro/api/_tender.info.json?_key=1732ede4de680a0c93d81f01d7bac7d1&company_id=44441&id=289930 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Accept: application/json
+Host: www.tender.pro
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Date: [Sun, 08 Oct 2017 15:18:39 GMT]
+Transfer-Encoding: [chunked]
+#status#: [HTTP/1.1 200 OK]
+P3P: [policyref="/w3c/p3p.xml", CP="CUR ADM OUR NOR STA NID"]
+Expires: [Thu, 01 Jan 1970 00:00:01 GMT]
+Set-Cookie: [TPROv1=Td2LhVnaQc+KdQjMBHz7Ag==; expires=Sun, 22-Oct-17 15:18:39 GMT; domain=www.tender.pro; path=/]
+Connection: [keep-alive]
+Content-Type: [application/json; charset=UTF-8]
+Server: [nginx/1.3.8]
+Cache-Control: [no-cache]
+Pragma: [no-cache]
+
+{"success":"true","result":{"args":{"company_id":"44441","_key":"1732ede4de680a0c93d81f01d7bac7d1","id":"289930"},"data":{"company_name":"Краском","close_date":"12.10.2017","full_address":null,"is_223fz":0,"ship_date":"15.11.2017","open_date":"07.10.2017","type_id":1,"id":289930,"anno":"<p><strong>Продукцию предлагать согласно Техническим характеристикам во вкладке \"ФАЙЛЫ\"</strong>.&nbsp;<strong>ОБЯЗАТЕЛЬНО ЗАПОЛНИТЬ ТАБЛИЦУ, вложенную во вкладку \"ФАЙЛЫ\".&nbsp;</strong></p><br/><p><strong><span style=\"text-decoration: underline;\">Доставка строго до склада Покупателя</span>.</strong></p><br/><p style=\"font-size: 12px; background-color: #e5e5e5;\">Требуемые условия оплаты -расчет <span style=\"font-size: 12pt;\">последующий по каждой заявке Покупателя и соответствующей спецификации в течение 30&nbsp;(тридцати) календарных дней с момента получения товара в полном объеме по соответствующей спецификации.</span>Необходимость поставки пробной партии - по запросу;<br/>Особые требования к качеству товара -<span style=\"font-size: 12pt;\">товар должен соответствоватьпо качеству требованиям, установленным для пригодного использования товара в соответствии с его целямии назначением, а также общепринятым требованиям ГОСТ, ТУ, СНиП.</span></p><br/><p><span style=\"font-size: 12pt;\">Данный запрос предложений не является публичными торгами в понимании ст.ст.447-449,1057-1061 ГК РФ. Все действия до момента подписания договора считаются преддоговорной работой и не накладывают на организатора обязательств.</span></p>","face_email":null,"status_id":2,"type_name":"Открытый тендер на закупку","winners_list":null,"company_id":44441,"is_priv":0,"offers_count":null,"face_phone":null,"face_name":null,"title":"ООО \"КрасКом\". Запрос предложений на закуп спецобуви №1157 (октябрь 2017г.).  (id289930)"}}}

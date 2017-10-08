@@ -1,0 +1,49 @@
+2017-10-08 21:45:51,274 - com.example.tests.UITest -DEBUG - setUp()+
+2017-10-08 21:45:54,388 - com.example.tests.UITest -DEBUG - setUp()-InternetExplorer
+2017-10-08 21:45:54,413 - com.example.tests.UITest -DEBUG - setUp().
+2017-10-08 21:45:54,413 - com.example.tests.UITest -INFO - 0. ѕодготовка и проверка наличи€ в меню пункта 'ѕрайс-лист'
+2017-10-08 21:45:54,413 - com.example.tests.UITest -INFO - 0.1 «айти на сайт (по гор€чим следам, без авторизации)
+2017-10-08 21:45:57,129 - com.example.tests.UITest -DEBUG - .перейти на вкладку 'ѕрайс-лист'
+2017-10-08 21:46:00,594 - com.example.tests.UITest -DEBUG - 0. OK (открылась вкладка, продолжаем тест)
+2017-10-08 21:46:00,594 - com.example.tests.UITest -INFO - 0.2 ќтобразить старый прайс-лист
+2017-10-08 21:46:05,992 - com.example.tests.UITest -DEBUG - .определить наличие таблицы
+2017-10-08 21:46:09,228 - com.example.tests.UITest -INFO - 0.3 ќчистить прайс-лист, если обнаружена таблица
+2017-10-08 21:46:09,229 - com.example.tests.UITest -DEBUG - .(таблицы нет)
+2017-10-08 21:46:09,229 - com.example.tests.UITest -INFO - 0.4 ѕроверить, что теперь таблица не показываетс€
+2017-10-08 21:46:10,281 - com.example.tests.UITest -DEBUG - 0.4 http://www.tender.pro/price_list.shtml?sid=827782&companyid=206383&folders=1&op=0&oldfaceid=221501&expire=0&pricetype=&faceid=
+2017-10-08 21:46:18,485 - com.example.tests.UITest -DEBUG - 0.4 OK (удалось удалить старый прайс-лист)
+2017-10-08 21:46:18,485 - com.example.tests.UITest -INFO - 0.5 «аполнить прайс-лист...
+2017-10-08 21:46:22,349 - com.example.tests.UITest -DEBUG - http://www.tender.pro/cgi-bin/file.pl?sessionfaceid=221501&operation=form&sid=827782&companyid=206383&doctypeid=12&docid=0&ref=%2F%70%72%69%63%65%5F%6C%69%73%74%2E%73%68%74%6D%6C?%73%69%64%3D%38%32%37%37%38%32%26%63%6F%6D%70%61%6E%79%69%64%3D%32%30%36%33%38%33%26%66%6F%6C%64%65%72%73%3D%31%26%6F%70%3D%30%26%6F%6C%64%66%61%63%65%69%64%3D%26%65%78%70%69%72%65%3D%30%26%70%72%69%63%65%74%79%70%65%3D%26%66%61%63%65%69%64%3D
+2017-10-08 21:46:25,538 - com.example.tests.UITest -DEBUG - 0.5.2 http://www.tender.pro/cgi-bin/file.pl?sessionfaceid=221501&operation=form&sid=827782&companyid=206383&doctypeid=12&docid=0&ref=%2F%70%72%69%63%65%5F%6C%69%73%74%2E%73%68%74%6D%6C?%73%69%64%3D%38%32%37%37%38%32%26%63%6F%6D%70%61%6E%79%69%64%3D%32%30%36%33%38%33%26%66%6F%6C%64%65%72%73%3D%31%26%6F%70%3D%30%26%6F%6C%64%66%61%63%65%69%64%3D%26%65%78%70%69%72%65%3D%30%26%70%72%69%63%65%74%79%70%65%3D%26%66%61%63%65%69%64%3D
+2017-10-08 21:46:25,743 - com.example.tests.UITest -DEBUG - 0.5.3 
+2017-10-08 21:46:26,794 - com.example.tests.UITest -DEBUG - 0.5.4 http://www.tender.pro/cgi-bin/file.pl?sessionfaceid=221501&operation=form&sid=827782&companyid=206383&doctypeid=12&docid=0&ref=%2F%70%72%69%63%65%5F%6C%69%73%74%2E%73%68%74%6D%6C?%73%69%64%3D%38%32%37%37%38%32%26%63%6F%6D%70%61%6E%79%69%64%3D%32%30%36%33%38%33%26%66%6F%6C%64%65%72%73%3D%31%26%6F%70%3D%30%26%6F%6C%64%66%61%63%65%69%64%3D%26%65%78%70%69%72%65%3D%30%26%70%72%69%63%65%74%79%70%65%3D%26%66%61%63%65%69%64%3D
+2017-10-08 21:46:31,294 - com.example.tests.UITest -DEBUG - 0.5.5 http://www.tender.pro/price_list.shtml?sid=827782&companyid=206383&folders=1&op=0&oldfaceid=&expire=0&pricetype=&faceid=&QDJEYU
+2017-10-08 21:46:31,433 - com.example.tests.UITest -INFO - 1. ѕроверить, что в таблице есть несколько строк
+2017-10-08 21:46:35,748 - com.example.tests.UITest -DEBUG - 1. OK (как минимум, две строки)
+2017-10-08 21:46:35,748 - com.example.tests.UITest -INFO - 2. ѕроверить, что в таблице нет недействительных
+2017-10-08 21:46:39,711 - com.example.tests.UITest -DEBUG - 2. OK (—писок пуст)
+2017-10-08 21:46:39,711 - com.example.tests.UITest -INFO - 3. ѕроверить, что в таблице нет назначеного »ванова
+2017-10-08 21:46:44,308 - com.example.tests.UITest -DEBUG - 3. OK (—писок пуст)
+2017-10-08 21:46:44,308 - com.example.tests.UITest -INFO - 4. ѕроверить отображение ответственного
+2017-10-08 21:46:44,309 - com.example.tests.UITest -INFO - 4.1 ѕоказать все строки таблицы
+2017-10-08 21:46:48,833 - com.example.tests.UITest -DEBUG - 4.1 OK (две строки)
+2017-10-08 21:46:48,834 - com.example.tests.UITest -INFO - 4.2 ќтредактировать строку ”слуги таблицы
+2017-10-08 21:46:52,152 - com.example.tests.UITest -DEBUG - .строка просмотра услуги
+2017-10-08 21:46:56,811 - com.example.tests.UITest -DEBUG - .карточка редактировани€ услуги
+2017-10-08 21:46:57,474 - com.example.tests.UITest -DEBUG - .закрыть карточку
+2017-10-08 21:47:04,035 - com.example.tests.UITest -DEBUG - .закрыть строку просмотра
+2017-10-08 21:47:08,349 - com.example.tests.UITest -INFO - 4.3 ѕроверить, что таблица показывает »ванова
+2017-10-08 21:47:12,846 - com.example.tests.UITest -DEBUG - 4.3 OK (есть строка)
+2017-10-08 21:47:12,847 - com.example.tests.UITest -INFO - 5. ѕроверить отображение недействительного товара
+2017-10-08 21:47:12,847 - com.example.tests.UITest -INFO - 5.1 ѕоказать все строки таблицы
+2017-10-08 21:47:21,221 - com.example.tests.UITest -DEBUG - 5.1 OK (две строки)
+2017-10-08 21:47:21,222 - com.example.tests.UITest -INFO - 5.2 ќтредактировать строку с товаром
+2017-10-08 21:47:25,939 - com.example.tests.UITest -DEBUG - .строка просмотра товара
+2017-10-08 21:47:29,750 - com.example.tests.UITest -DEBUG - .карточка редактировани€ товара
+2017-10-08 21:47:30,188 - com.example.tests.UITest -DEBUG - .закрыть карточку
+2017-10-08 21:47:36,539 - com.example.tests.UITest -DEBUG - .закрыть строку просмотра
+2017-10-08 21:47:41,042 - com.example.tests.UITest -INFO - 5.3 ѕроверить, что таблица показывает недействительный товар
+2017-10-08 21:47:45,522 - com.example.tests.UITest -DEBUG - 5.3 OK (есть перва€ строка)
+2017-10-08 21:47:45,523 - com.example.tests.UITest -INFO - 6. ѕроверить по€вление описани€ ошибки при выборе кривого ќтветственного
+2017-10-08 21:47:50,229 - com.example.tests.UITest -DEBUG - 6. OK (есть сообщение с описанием ошибки)
+2017-10-08 21:47:50,230 - com.example.tests.UITest -INFO - окончание теста.

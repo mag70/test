@@ -1,0 +1,150 @@
+2017-10-08 23:18:12,745 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\postgresql-8.3-604.jdbc3.jar] to extensions classpath
+2017-10-08 23:18:12,747 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\postgresql-8.3-604.jdbc4.jar] to extensions classpath
+2017-10-08 23:18:12,751 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\sqljdbc.jar] to extensions classpath
+2017-10-08 23:18:13,084 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\shiv\soapui-settings.xml]
+2017-10-08 23:18:13,962 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\scripts]
+2017-10-08 23:18:13,966 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\listeners\demo-listeners.xml]
+2017-10-08 23:18:15,555 INFO  [WsdlProject] Loaded project from [file:/C:/Users/shiv/Desktop/test/3_1/REST-TestZadanie-soapui-project.xml]
+2017-10-08 23:18:15,969 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [RESTTestZadanie]
+2017-10-08 23:18:16,029 INFO  [SoapUIProTestCaseRunner] Running TestSuite [TestSuite1], runType = SEQUENTIAL
+2017-10-08 23:18:16,064 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase1]
+2017-10-08 23:18:16,077 INFO  [SoapUIProTestCaseRunner] running step [_info.tenderlist_by_set.json]
+2017-10-08 23:18:39,245 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=50000ms] has status VALID
+2017-10-08 23:18:39,245 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes=200] has status VALID
+2017-10-08 23:18:39,247 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match success=true] has status VALID
+2017-10-08 23:18:39,248 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result.data=3] has status VALID
+2017-10-08 23:18:39,248 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count id=3] has status VALID
+2017-10-08 23:18:39,248 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count company_id=3] has status VALID
+2017-10-08 23:18:39,248 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath RegEx Match id=digital] has status VALID
+2017-10-08 23:18:39,248 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath RegEx Match company_id=digital] has status VALID
+2017-10-08 23:18:39,254 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer value company id0,1,2]
+2017-10-08 23:18:39,420 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2017-10-08 23:18:39,425 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:39,429 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:39,568 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:39,568 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:39,570 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:39,892 INFO  [SoapUIProTestCaseRunner] running step [Case success-(true/false)]
+2017-10-08 23:18:39,911 INFO  [SoapUIProTestCaseRunner] running step [success-true: Assertion TestStep]
+2017-10-08 23:18:39,985 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,986 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,989 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,989 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,989 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,989 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,990 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,990 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,990 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,990 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,991 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,991 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,991 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,991 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:39,994 INFO  [SoapUIProTestCaseRunner] running step [Goto Loop(2)]
+2017-10-08 23:18:40,019 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:40,021 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:40,026 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:40,156 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:40,156 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:40,158 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:40,166 INFO  [SoapUIProTestCaseRunner] running step [Case success-(true/false)]
+2017-10-08 23:18:40,175 INFO  [SoapUIProTestCaseRunner] running step [success-true: Assertion TestStep]
+2017-10-08 23:18:40,221 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,221 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,224 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,224 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,224 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,224 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,224 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,225 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,226 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,228 INFO  [SoapUIProTestCaseRunner] running step [Goto Loop(2)]
+2017-10-08 23:18:40,240 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:40,259 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:40,274 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:40,393 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:40,395 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:40,398 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:40,408 INFO  [SoapUIProTestCaseRunner] running step [Case success-(true/false)]
+2017-10-08 23:18:40,417 INFO  [SoapUIProTestCaseRunner] running step [success-true: Assertion TestStep]
+2017-10-08 23:18:40,455 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,455 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,458 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,458 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,458 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,459 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,459 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,459 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,459 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,460 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,460 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,460 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,460 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,460 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,462 INFO  [SoapUIProTestCaseRunner] running step [Goto Loop(2)]
+2017-10-08 23:18:40,465 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:40,469 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:40,475 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:40,588 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:40,588 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:40,590 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:40,596 INFO  [SoapUIProTestCaseRunner] running step [Case success-(true/false)]
+2017-10-08 23:18:40,608 INFO  [SoapUIProTestCaseRunner] running step [success-false: Case error-(x)]
+2017-10-08 23:18:40,625 INFO  [SoapUIProTestCaseRunner] running step [error-company_id: Assertion NegativeTestStep]
+2017-10-08 23:18:40,653 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,664 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,679 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,691 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,701 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,711 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,717 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,728 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count result=1] has status VALID
+2017-10-08 23:18:40,732 INFO  [SoapUIProTestCaseRunner] running step [Goto Loop(3)]
+2017-10-08 23:18:40,738 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:40,756 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:40,792 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:40,906 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:40,907 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:40,909 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:40,915 INFO  [SoapUIProTestCaseRunner] running step [Case success-(true/false)]
+2017-10-08 23:18:40,927 INFO  [SoapUIProTestCaseRunner] running step [success-false: Case error-(x)]
+2017-10-08 23:18:40,945 INFO  [SoapUIProTestCaseRunner] running step [error-id: Assertion NegativeTestStep]
+2017-10-08 23:18:40,953 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Match] has status VALID
+2017-10-08 23:18:40,980 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Match] has status VALID
+2017-10-08 23:18:40,997 INFO  [SoapUIProTestCaseRunner] running step [Goto Loop(4)]
+2017-10-08 23:18:41,043 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:41,047 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:41,049 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:41,208 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:41,209 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:41,214 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:41,225 INFO  [SoapUIProTestCaseRunner] running step [error: Assertion NegativeTestStep]
+2017-10-08 23:18:41,241 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,244 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,252 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:41,261 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:41,264 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:41,384 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:41,385 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:41,388 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:41,393 INFO  [SoapUIProTestCaseRunner] running step [error: Assertion NegativeTestStep]
+2017-10-08 23:18:41,395 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,395 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,397 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:41,399 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer cur2pos]
+2017-10-08 23:18:41,402 INFO  [SoapUIProTestCaseRunner] running step [_tender.info.json]
+2017-10-08 23:18:41,563 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA timeout=30000ms] has status VALID
+2017-10-08 23:18:41,563 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes =200] has status VALID
+2017-10-08 23:18:41,565 INFO  [SoapUIProTestCaseRunner] running step [Check error]
+2017-10-08 23:18:41,569 INFO  [SoapUIProTestCaseRunner] running step [error: Assertion NegativeTestStep]
+2017-10-08 23:18:41,576 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,590 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Existence Match error.data] has status VALID
+2017-10-08 23:18:41,607 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2017-10-08 23:18:41,631 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase1], time taken: 24085ms, status: FINISHED
+2017-10-08 23:18:41,643 INFO  [SoapUIProTestCaseRunner] TestSuite [TestSuite1] finished with status [FINISHED] in 25606ms
+2017-10-08 23:18:43,553 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/shiv/Desktop/test/3_1/171008T221811/index.html
