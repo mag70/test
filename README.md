@@ -1,5 +1,4 @@
 # test
-<<<<<<< HEAD
 
 Ответ 1:
 1) http://www.tender.pro/api/_info.tenderlist_by_set.json?_key=7b56c77b9f70220c3d5d4ce6477674ea&set_type_id=2&set_id=1&max_rows=3&open_only=1
@@ -39,7 +38,5 @@
 3) Запуск теста: run-UITest.cmd
 4) Пример отчетов выложены в log/
 
-begin 08.10.17
 =======
-in readme-edits
->>>>>>> 8b626e7ad91d201d268dcd3853da2522dc31deba
+08.10.17
